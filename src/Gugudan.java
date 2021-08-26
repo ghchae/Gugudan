@@ -15,9 +15,4 @@ public class Gugudan {
 		}
 		System.out.println();
 	}
-	public static void main(String[] args) {
-		for (int i=1; i < 10; i++) {
-			printGugudan(calculator(i));	
-		}
-	}
 }
