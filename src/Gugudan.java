@@ -1,6 +1,6 @@
 public class Gugudan {
-	public static int[] calculator(int step) {
-		int[] gugudanArray = new int[9];
+	public static int[] calculator(int step, int endStep) {
+		int[] gugudanArray = new int[endStep];
 		for (int j = 0; j < gugudanArray.length; j++) {
 			gugudanArray[j] = step * (j + 1);
 		}
